@@ -26,7 +26,7 @@ var click = 0;
 
     async function generateWord() {
       // Fetch the text file contents.
-      const response = await fetch("/static/parole.txt");
+      const response = await fetch("parole.txt");
     
       // Get the text file contents.
       const textFileContents = await response.text();
