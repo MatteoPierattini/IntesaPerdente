@@ -19,8 +19,11 @@
   font-size: 100px;
   color: white;
   left: 50%;
-  top: 80px;
   transform: translateX(-50%);
+}
+
+#timer-container {
+  top: 80px;
 }
 
 #parola-iniziale {
