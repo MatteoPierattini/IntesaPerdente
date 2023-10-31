@@ -6,7 +6,9 @@
   color: gold;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 55px;
-  text-align: center;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
   text-decoration: underline;
 }
 
@@ -35,7 +37,7 @@
 
 #start-timer {
   text-align: center;
-  bottom: 225px; 
+  bottom: 215px; 
   position: fixed;
   left: 50%;
   transform: translateX(-50%);
