@@ -1,0 +1,71 @@
+#body {
+  background-color: rgb(24, 160, 205);
+}
+
+#title {  
+  color: gold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 80px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+#timer {
+  text-align: center;
+  position: fixed;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 100px;
+  color: white;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#parola-iniziale {
+  color: lightgray;
+  opacity: 0.7;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+}
+
+#timer-text {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+#start-timer {
+  text-align: center;
+  bottom: 225px; 
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#word-container {
+  text-align: center;
+  font-size: 80px;
+  color: white;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  left: 50%;
+  transform: translateX(-50%);
+  position: fixed;
+  top: 285px;
+}
+
+#button-word {
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); 
+  width: 175px;
+  height: 65px;
+  background: green;
+  color: white;
+  font-size: 35px;
+  border-color: green;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#button-word:active {
+  transform: translateY(2px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
