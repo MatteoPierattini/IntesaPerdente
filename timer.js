@@ -18,7 +18,7 @@ var click = 0;
       if (timer === 0) {
         timer = 60;
         // Display a message that the timer has expired
-        document.getElementById("timer").innerHTML = "Tempo finito!";
+        document.getElementById("timer").innerHTML = "Tempo!";
         clearInterval(intervalID);
 
       }
