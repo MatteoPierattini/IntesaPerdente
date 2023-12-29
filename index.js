@@ -18,7 +18,7 @@ function updateTimer() {
   if (timer === 0) {
     timer = 60;
     
-    document.getElementById("timer").innerHTML = "Tempo finito!";
+    document.getElementById("timer").innerHTML = "Tempo!";
     clearInterval(intervalID);
 
   }
