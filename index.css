@@ -5,9 +5,10 @@
 #title {  
   color: white;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: 60px;
+  font-size: 55px;
   text-align: center;
   text-decoration: ;
+  top: 10px;
 }
 
 #timer {
